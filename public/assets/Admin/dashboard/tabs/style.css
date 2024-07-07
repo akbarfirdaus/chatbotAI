@@ -1,0 +1,71 @@
+:root {
+    --poppins: "Poppins", sans-serif;
+    --lato: "Lato", sans-serif;
+
+    --light: #f9f9f9;
+    --blue: #3c91e6;
+    --light-blue: #cfe8ff;
+    --grey: #eee;
+    --dark-grey: #aaaaaa;
+    --dark: #342e37;
+    --red: #db504a;
+    --yellow: #ffce26;
+    --light-yellow: #fff2c6;
+    --orange: #fd7238;
+    --light-orange: #ffe0d3;
+    --dark-blue: #00008b;
+    --green: #90ee90;
+    --dark-green: #32cd32;
+    --white: #ffffff;
+}
+h1,
+h2 {
+    color: var(--dark);
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid var(--dark);
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+    color: var(--dark);
+}
+
+th {
+    background-color: var(--white);
+}
+
+@media screen and (max-width: 600px) {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    th,
+    td {
+        padding: 12px;
+        border: none;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+}

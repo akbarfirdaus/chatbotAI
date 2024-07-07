@@ -1,0 +1,71 @@
+:root {
+    --dark-grey: #aaaaaa;
+    --white: #ffffff;
+}
+
+#content main .head-title .left .breadcrumb {
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    background: none;
+}
+#content main .head-title .left .breadcrumb li {
+    color: var(--dark);
+}
+#content main .head-title .left .breadcrumb li a {
+    color: var(--dark);
+    pointer-events: none;
+}
+
+body.dark {
+    --light: #0c0c1e;
+    --grey: #060714;
+    --dark: #fbfbfb;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid var(--light);
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+    color: var(--dark);
+}
+
+th {
+    background-color: var(--dark-grey);
+}
+
+@media screen and (max-width: 600px) {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    th,
+    td {
+        padding: 12px;
+        border: none;
+    }
+
+    th {
+        background-color: var(--dark);
+    }
+}
