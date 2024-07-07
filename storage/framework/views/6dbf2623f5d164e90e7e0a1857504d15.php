@@ -1,0 +1,1 @@
+<?php /**PATH C:\laragon\www\chatbot\resources\views\template\admin\footer.blade.php ENDPATH**/ ?>
